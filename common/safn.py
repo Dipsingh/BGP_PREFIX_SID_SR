@@ -1,0 +1,18 @@
+"""RFC 2858 subsequent address family numbers"""
+
+SAFNUM_UNICAST = 1
+SAFNUM_MULCAST = 2
+SAFNUM_UNIMULC = 3
+SAFNUM_MPLS_LABEL = 4  # rfc3107
+SAFNUM_MCAST_VPN = 5  # draft-ietf-l3vpn-2547bis-mcast-bgp-08.txt
+SAFNUM_ENCAPSULATION = 7  # rfc5512
+SAFNUM_TUNNEL = 64  # draft-nalawade-kapoor-tunnel-safi-02.txt
+SAFNUM_VPLS = 65
+SAFNUM_MDT = 66  # rfc6037
+SAFNUM_BGPLS = 71
+SAFNUM_LAB_VPNUNICAST = 128  # Draft-rosen-rfc2547bis-03
+SAFNUM_LAB_VPNMULCAST = 129
+SAFNUM_LAB_VPNUNIMULC = 130
+SAFNUM_ROUTE_TARGET = 132  # RFC 4684 Constrained Route Distribution for BGP/MPLS IP VPN
+SAFNUM_FSPEC_RULE = 133  # RFC 5575 BGP flow spec SAFI
+SAFNUM_FSPEC_VPN_RULE = 134  # RFC 5575 BGP flow spec SAFI VPN
